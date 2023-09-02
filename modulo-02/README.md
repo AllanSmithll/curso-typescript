@@ -9,5 +9,6 @@
 
 - number
 - string
+- boolean
 - Object
 - Array
