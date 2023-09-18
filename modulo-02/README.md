@@ -12,6 +12,8 @@
 - boolean
 - Object
 - Array
+- Any
+...
 
 ## Tuple
 - Coleção heterogênea de valores
@@ -49,3 +51,68 @@ Enum TypeName {
 ### Tipos de Enums
 Enums podem ser: Numeric Enums ou String Enums
 
+## Any
+
+- Padrinho dos tipos
+- Any é padrão no TypeScript
+- Evitar ao máximo usar o tipo 'any'
+
+### Sintaxe
+
+`let valorVariavel: any;`
+
+## Unknown
+
+- Não sabe qual tipo definir
+- Evitará problemas no código
+- Any !== Unknown
+- Verificação antes de realizar quaisquer operações quando formos executar o código do TypeScript
+- Todos os tipos podem ser atribuídos a 'Unknown
+
+### Sintaxe
+
+`let valorVariavel: unknown;`
+
+## Void
+
+- Função retorna nenhum valor - void
+- Tipo void oposto do Tipo Any
+- Melhoria da clareza do código
+- Garante a segurança de tipo
+- Não retornará nenhum dado ou valor
+
+### Sintaxe
+
+`function exemploFuncao(mensagem): void {}`
+
+## Tipo - Null
+
+- É Objeto
+- Ausência intencional de valor
+- Variável valor é indefinido
+- Só aceita apenas um valor
+
+## Tipo - Undefined
+
+- Variáveis não inicializadas
+- Tem apenas um valor
+- Função que não retorna um valor
+
+## Tipo - Never
+
+- Não contém valores
+- Não podemos atribuir valor ao tipo Never
+- Retorno de função que gera erro
+
+## Tipo - Object
+
+- Representa valores que não são primitivos
+- Melhor forma de represntar dados
+- Podem ser anônimos
+- Ou também... São nomeados
+
+### Diferença entre...
+
+- object (minúsculo) - qualquer valor que não seja de tipo primitivo
+- Object (maiúsculo) - uncionalidade disponível em todos os objetos (como alocação de memória)
+- {} - objeto que não possui propriedade própria
