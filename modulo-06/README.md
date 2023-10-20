@@ -28,4 +28,32 @@
 
 - Cada variável em TypeScript tem um tipo
 - Permite você converta variável de um tipo para outro
-- Palavra-chave as <>
+- Palavra-chave: 'as' e '<>'
+
+## Type Assertion
+
+- Sobre o tipo de uma variável
+- Semelhante ao Type Casting
+- Palavras-chave: 'as' e '<>'
+
+## Conditional Types
+
+- Definem tipos de valor em base nas condições
+- Usado no fluxo de código
+- ? (verdadeiro)
+- : (falso)
+
+## Mapped Types
+
+- Obter um modelo existente
+- Transformar cada propriedade
+- Permanecer sicronizado com outro tipo
+```
+type MappedTypeName = { [K in UnionType]: ExistingType };
+```
+
+## Satisfies Operator
+
+- Introdução na versão TS 4.9
+- Capacidade de atribuir tipos mais específicos
+- Impor uma restrição numa variável sem alterar seu tipo
