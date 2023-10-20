@@ -1,21 +1,22 @@
 // 18/08/2023 - Type Annotation
 
 // => Variáveis [Type Annotations]
-let nome: string = "Allan Amancio";
-console.log(nome);
+let nome3 = "Allan Amancio";
+console.log(nome3);
 
 // => Arrays [Type Annotations]
-let animais: string[] = ['Cachorro','Gato','Garça']
+const animais: string[] = ['Cachorro','Gato','Garça']
 console.log(animais);
 
 // => Objetos [Type Annotations]
-let carro: {
+let carro1: {
     nome: string,
     ano: number,
     preco: number
 }
-carro = { nome: 'Toyota Yaris Sedan XS', ano: 2019, preco: 8000 };
-console.log(carro);
+// eslint-disable-next-line prefer-const
+carro1 = { nome: 'Toyota Yaris Sedan XS', ano: 2019, preco: 8000 };
+console.log(carro1);
 
 // => Functions [Type Annotation]
 function multiplicarNumeros(num1: number, num2: number) {
