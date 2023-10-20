@@ -33,13 +33,7 @@ const enum Comida {
     Churrasco = 'Churrasco',
 }
 
-function comida(Comida) {
-    return 'Comidas muito apetitosas';
-}
-
-console.log(comida(Comida.Pizza));
-console.log(comida(Comida.Torta));
-//console.log(comida(5));
+console.log(Comida.Churrasco);
 
 // Exemplo 4 - Quando usar enum?
 enum Tarefa {

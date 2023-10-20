@@ -20,12 +20,7 @@ var Dia;
     Dia["Domingo"] = "DOM";
 })(Dia || (Dia = {}));
 console.log(Dia);
-function comida(Comida) {
-    return 'Comidas muito apetitosas';
-}
-console.log(comida("Pizza" /* Comida.Pizza */));
-console.log(comida("Torta" /* Comida.Torta */));
-//console.log(comida(5));
+console.log("Churrasco" /* Comida.Churrasco */);
 // Exemplo 4 - Quando usar enum?
 var Tarefa;
 (function (Tarefa) {
